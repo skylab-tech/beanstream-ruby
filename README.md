@@ -1,12 +1,17 @@
-# Beanstream's Ruby SDK
+# Bambora's Ruby SDK
 
-Integration with Beanstream’s payments gateway is a simple, flexible solution.
+Integration with Bambora’s payments gateway is a simple, flexible solution.
 
 You can choose between a straightforward payment requiring very few parameters; or, you can customize a feature-rich integration.
 
 To assist as a centralized record of all your sales, we also accept cash and cheque transactions.
 
-For very detailed information on the Payments API, look at the Beanstream developer portal's [documentation](http://developer.beanstream.com/documentation/take-payments/purchases-pre-authorizations/).
+For very detailed information on the Payments API, look at the Bambora [developer portal](https://dev.na.bambora.com/docs/references/payment_SDKs/take_payments/).
+
+
+# TLS 1.2 support
+For testing instructions with our TLS1.2-only server, please refer to our [developer portal](https://dev.na.bambora.com/docs/references/payment_SDKs/support_tls12/#ruby-sdk)
+
 
 # Setup
 To install the SDK you just need to simply install the gem file:
@@ -41,4 +46,4 @@ end
 
 
 # Reporting Issues
-Found a bug or want a feature improvement? Create a new Issue here on the github page, or email Beanstream support support@beanstream.com
+Found a bug or want a feature improvement? Create a new Issue here on the github page.
