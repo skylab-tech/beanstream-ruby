@@ -102,6 +102,7 @@ module Beanstream
 
       else
         message = "Unexpected error communicating with Beanstream. "
+        
 
       end
 
