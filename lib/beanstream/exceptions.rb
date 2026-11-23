@@ -67,5 +67,11 @@ module Beanstream
       super(code, category, message, http_status_code)
     end
   end
+
+  class APIConnectionError < BeanstreamException
+    def initialize(message)
+      super(nil, nil, message, nil)
+    end
+  end
   
 end

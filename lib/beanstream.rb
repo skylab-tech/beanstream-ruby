@@ -10,7 +10,7 @@ module Beanstream
   @url_prefix = 'api.na'
   @url_base = "bambora.com"
   @url_version = "v1"
-  @ssl_ca_cert = File.dirname(__FILE__) + '/resources/cacert.pem'
+  @ssl_ca_cert = nil
   @timeout = 80
   @open_timeout = 40
   
